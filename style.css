@@ -1,52 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-}
-body{
-
-text-transform: capitalize;
-background-image: url("pexels-mateusz-dach-450035.jpg");
-
-height: 100vh;
-
-overflow-y:hidden;
-
-
+  font-family: 'Roboto Mono', monospace;
 }
 
+body {
+  text-transform: capitalize;
+  background-image: url("pexels-mateusz-dach-450035.jpg");
+}
 
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
 .first-para {
   text-align: center;
   margin-top: 4%;
   margin-bottom: 30px;
-  font-size: 21px;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 10px;
 }
 
 form {
-
-  width: 40%;
-  margin: 0 auto;
-  background: darkgray;
-  color: wheat;
+  width: 75%;
+  margin: 0 auto 25px;
+  background: rgba(100, 99, 99, 0.474);
+  color: rgb(247, 236, 217);
   padding: 20px 30px;
-opacity: 0.7;
-
-
-
-
+  font-size: 16px;
 }
 
-input,
-select {
-  margin-bottom: 15px;
+p {
+  margin: 25px 0 10px;
 }
 
-text-area{
+input[type='text'],
+input[type='email'],
+input[type='number'],
+select,
+textarea {
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
 
-height: 50px;
-width: 200px;
+input[name='name'],
+input[type='email'],
+input[type='number'] {
+  margin: 15px 0;
+}
 
+textarea::placeholder {
+  padding: 5px 0 0 10px;
+}
+
+button {
+  background: rgb(134, 212, 16);
+  color: #fff;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 15px;
 }
