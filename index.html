@@ -10,7 +10,66 @@
 </head>
 
 <body>
+  <p class="first-para">
+    Thank you for taking the time to help us improve the platform
+  </p>
+  <form action="#">
+    <label for="name">
+      Name <br>
+      <input type="text" name="name" id="name">
+    </label><br>
 
+    <label for="email">
+      Email <br>
+      <input type="email" name="email" id="email">
+    </label><br>
+
+    <label for="age">
+      Age (optional) <br>
+      <input type="number" name="age" id="age" min="10">
+    </label>
+
+    <p>Which option best describes your current role?</p>
+    <select name="roles" id="roles">
+      <option value="select" selected disabled>Select current role</option>
+      <option value="student">Student</option>
+      <option value="job">Full Time Job</option>
+      <option value="learner">Full Time Learner</option>
+      <option value="prefered">Prefer not to say</option>
+      <option value="others">Others</option>
+    </select>
+
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+    <label for="definitely">
+      <input type="radio" name="definitely" id="definitely" checked>
+      Definitely
+    </label> <br>
+    <label for="maybe">
+      <input type="radio" name="maybe" id="maybe">
+      Maybe
+    </label> <br>
+    <label for="notSure">
+      <input type="radio" name="notSure" id="notSure">
+      Not sure
+    </label>
+
+    <p>What is your favorite Color?</p>
+    <select name="colors" id="colors">
+      <option value="selcet" selected disabled>Select an Option</option>
+      <option value="red">Red</option>
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+      <option value="white">White</option>
+      <option value="black">Black</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="yellow">Yellow</option>
+      <option value="others">Others</option>
+    </select>
+
+    <p>If you select others, please specify?</p>
+    <input type="text" name="colors">
+  </form>
 </body>
 
 </html>

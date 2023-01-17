@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first-para {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 30px;
+  font-size: 21px;
+}
+
+form {
+  width: 40%;
+  margin: 0 auto;
+  background: darkgray;
+  color: wheat;
+  padding: 20px 30px;
+}
+
+input,
+select {
+  margin-bottom: 15px;
+}
