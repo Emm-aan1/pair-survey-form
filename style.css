@@ -9,8 +9,9 @@
 
 body {
   text-transform: capitalize;
-  background-image: url("pexels-mateusz-dach-450035.jpg");
+  background-image: url("pexels-irina-varanovich-14963733.jpg") ;
 }
+
 
 .container {
   position: absolute;
@@ -29,16 +30,28 @@ body {
   font-size: 18px;
   color: #fff;
   padding: 0 10px;
+
+border-radius: 20px 20px;
+color :red ;
+border-style: outset;
+margin-left: 60px;
+margin-right: 60px; 
+
+
 }
 
 form {
   width: 75%;
   margin: 0 auto 25px;
-  background: rgba(100, 99, 99, 0.474);
+  background: rgb(0, 0, 0);
   color: rgb(247, 236, 217);
   padding: 20px 30px;
   font-size: 16px;
+opacity:0.5;
+
 }
+
+
 
 p {
   margin: 25px 0 10px;
@@ -75,4 +88,5 @@ button {
   border-radius: 4px;
   width: 100%;
   margin-top: 15px;
+  opacity: 5;
 }
